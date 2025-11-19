@@ -1,0 +1,8 @@
+{
+    "name":"greencart",
+    "email": "demogrocery@gmail.com",
+    "password":"123998"
+}
+
+cd server -> npm run server
+cd grocery -> npm run dev
