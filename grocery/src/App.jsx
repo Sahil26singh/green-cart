@@ -4,7 +4,7 @@ import { Route, Routes, useLocation, useParams } from 'react-router-dom';
 import Home from './pages/Home';
 import { Toaster } from "react-hot-toast";
 import Footer from './components/Footer';
-import { useAppContext } from './context/Appcontext';
+import { useAppContext } from './context/Appcontext.jsx';
 import Login from './components/Login';
 import Allproducts from './pages/Allproducts';
 import Productcategory from './pages/Productcategory';
