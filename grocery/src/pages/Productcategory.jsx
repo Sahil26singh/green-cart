@@ -1,5 +1,5 @@
 import React from "react";
-import { useAppContext } from "../context/Appcontext";
+import { useAppContext } from "../context/AppContext";
 import { useParams } from "react-router-dom";
 import { categories } from "../assets/assets";
 import Productcard from "../components/Productcard";

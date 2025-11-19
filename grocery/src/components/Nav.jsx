@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom'; 
 import { assets } from '../assets/assets';
-import { useAppContext } from '../context/Appcontext';
+import { useAppContext } from '../context/AppContext.jsx'
 import toast from 'react-hot-toast';
 
 const Nav = () => {

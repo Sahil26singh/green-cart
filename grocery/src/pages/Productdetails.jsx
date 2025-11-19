@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useAppContext } from "../context/Appcontext";
+import { useAppContext } from "../context/AppContext";
 import { Link, useParams, useNavigate } from "react-router-dom";
 import { assets } from "../assets/assets";
 import Productcard from "../components/Productcard";
