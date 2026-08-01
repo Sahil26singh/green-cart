@@ -1,0 +1,38 @@
+# ── Dependencies ───────────────────────────────────────────────
+node_modules/
+grocery/node_modules/
+server/node_modules/
+
+# ── Environment variables (contains real secrets — never commit) ──
+.env
+.env.*
+!.env.example
+grocery/.env
+grocery/.env.*
+server/.env
+server/.env.*
+
+# ── Build output ───────────────────────────────────────────────
+dist/
+build/
+grocery/dist/
+grocery/build/
+
+# ── Logs ───────────────────────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# ── Vercel ─────────────────────────────────────────────────────
+.vercel
+
+# ── Editor / OS ────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Misc ───────────────────────────────────────────────────────
+*.local
+coverage/
