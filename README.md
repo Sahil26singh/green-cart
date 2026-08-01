@@ -127,11 +127,3 @@ Update `STRIPE_WEBHOOK_SECRET` in `server/.env` with the signature key printed b
 
 Alternatively, the application includes a fallback verification endpoint (`/api/order/verify-stripe`) for basic local testing without webhooks.
 
----
-
-## Deployment
-
-1. **Backend:** Deploy `server/` as a standalone web service (e.g., Vercel, Render). Configure all environment variables in your project settings.
-2. **Webhooks:** Register your production backend URL (`https://your-backend-domain.com/stripe`) in the Stripe Dashboard to obtain your live webhook secret.
-3. **Frontend:** Deploy `grocery/` (e.g., Vercel, Netlify). Set `VITE_BACKEND_URL` to point to your live backend domain.
-4. **CORS:** Ensure your frontend URL is included in `allowedOrigins` within `server/server.js`.
